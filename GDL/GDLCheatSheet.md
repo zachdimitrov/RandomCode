@@ -135,3 +135,25 @@ RETURN
 ```
 ##### Error messages
 ```PRINT "Warning, this is not correct", value```
+
+### CUTPLANE, CUTEND, CUTPOLY
+
+##### examle with CUTEND
+```
+! make ADD and ROT adjustments first
+MATERIAL 'cutMaterial'
+CUTPLANE [angle]  !angle is optional - rotates arount X axis, always cuts above
+ ! DEL all cursor adjustments
+ ! create object
+CUTEND
+```
+##### example with parameters
+```
+CUTPLANE x,y,z [,side]
+```
+##### CUTPOLY
+```
+CUTPOLYA number, status, depth,
+ x1,y1,15, etc.
+ [xv,yv,zv] !Optional Vector
+```
