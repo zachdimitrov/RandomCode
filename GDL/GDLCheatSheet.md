@@ -30,11 +30,18 @@ NAME | SYNTAX | OTHER INFO
 **cprism_**| ```cPrism_ t,b,s,n,h, x1,x2,15...etc``` | t-top, b-base, s-side material
 **bprism_**| ```bPrism_ t,b,s,n,h,r x1,x2,15...etc```| r-radius of bending
 **hprism_/fprism_**| ```hPrism_ t,b,s,n,h,r,A,Hh,Hs x1,x2,15...etc```| A-angle of lsant, Hh - hill height, Hs, hill status
+**sprism_**| ```SPRISM_ ... ``` | adds a cutplane, but its easier to use cutplane
 
 we can create hole in **prism_** when we add a second prism inside it
-*END CODES*
-- **15** - standart point  
+*MASKING CODES*
+- **1** - draws the bottom edge line
+- **2** - draws the vertical side line
+- **4** - draws the top edge line
+- **8** - draws the side surface as solid
+- **15** - standart point in prisms - does all the above 
 - **-1** - end point (same coords with start point  
+- **64** - smooths edges
+- **15+64** - everything + smooth edges
 - **15-2** (13) - removes vertical lines  
 - **1000+15-2** (1013) - makes outer curve and removes vertical lines  
 - **900** - start circular hole  
