@@ -55,6 +55,16 @@ NAME | SYNTAX | OTHER INFO
 **radius** | ```RADIUS rmin, rmax``` | gives 3 resolution values depending on radius
 **tolerance**| ```TOLER value```| defines the minimum arc height for curve
 
+### Write 3D Text
+```
+DEFINE STYLE 'styleName' 'Arial', 1000, 7, 0
+PEN gs_cont_pen
+MATERIAL text_mat
+TOLER 0.002
+SET STYLE 'styleName'
+TEXT depth, 0 , 'message'
+```
+
 ### Simple 2D Syntax Table
 
 NAME | SYNTAX | OTHER INFO
@@ -68,6 +78,18 @@ NAME | SYNTAX | OTHER INFO
 **hotspot 2D** | ```HOTSPOT2 a, b``` | adds a 2D hotspot to a, b coordinates
 **hotarc 2D** | ```HOTARC2 x, y, r, startA, endA``` | same as ARC2
 
+### 3D PLanar Elements Syntax Table
+
+ SYNTAX | EXAMPLE
+ --- | ---
+**CIRCLE** |CIRCLE radius
+**ARC** |ARC radius, startangl, endangl
+**LIN_** |LIN_ x1,y1,z1, x2,y2,z2
+**POLY** |POLY number, x1,y1, x2,y2,... etc
+**POLY_** |POLY_ number, x1,y1,mask, x2,y2,mask,... etc
+**PLANE** |PLANE number, x1,y1,z1, x2,y2,z2,... etc
+
+
 ### Statements
 
 **IF** *condition* **THEN** *do something* **ELSE** *do another thing* **ENDIF**   
@@ -76,6 +98,12 @@ NAME | SYNTAX | OTHER INFO
 **MODEL** SOLID  
 **SHADOW** ON  
 **SHADOW** OFF  
+
+### Loops  
+**FOR** k=1 **TO** n  
+ ! do something  
+**NEXT** k  
+ del n  
 
 ##### value lists for user choise
 ```
