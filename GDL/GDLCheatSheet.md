@@ -88,7 +88,9 @@ NAME | SYNTAX | OTHER INFO
 **POLY** |POLY number, x1,y1, x2,y2,... etc
 **POLY_** |POLY_ number, x1,y1,mask, x2,y2,mask,... etc
 **PLANE** |PLANE number, x1,y1,z1, x2,y2,z2,... etc
-
+**SLAB** |SLAB number, height, x1,y1,z1, x2,y2,z2,... etc
+**SLAB_**|SLAB_ number, height, x1,y1,z1,mask, x2,y2,z2,mask... etc
+**cSLAB_**|SLAB_ Tmat, Bmat, Smat, number, height, x1,y1,z1,mask, x2,y2,z2,mask... etc
 
 ### Statements
 
