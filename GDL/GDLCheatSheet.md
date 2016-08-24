@@ -32,7 +32,7 @@ NAME | SYNTAX | OTHER INFO
 **hprism_/fprism_**| ```hPrism_ t,b,s,n,h,r,A,Hh,Hs x1,x2,15...etc```| A-angle of lsant, Hh - hill height, Hs, hill status
 **sprism_**| ```SPRISM_ ... ``` | adds a cutplane, but its easier to use cutplane
 
-we can create hole in **prism_** when we add a second prism inside it
+we can create hole in **prism_** when we add a second prism inside it  
 *MASKING CODES*
 - **1** - draws the bottom edge line
 - **2** - draws the vertical side line
