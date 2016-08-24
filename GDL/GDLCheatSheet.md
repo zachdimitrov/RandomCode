@@ -12,3 +12,11 @@ NAME | SYNTAX | OTHER INFO
 **move X (Y,Z)** | ```ADDx value``` | moves cursor on specified axis only with the specified value 
 **rotate** |  ```ROT x, y, z```  | rotates cursor axises to the cpecified by **x, y, z** degrees around each axis
 **rotate X (Y,Z)** | ```ROTx value``` | rotates only from the specified axis - angle is formed on the **XZ** plane
+**scale** | ```MUL x, y, z``` | multiplies the given objects dimentions by the values given for each axis (-1 for reverse)
+**scale X (Y,Z)** | ```MULx value``` | works the same way as ROT and ADD
+**2D manipulation** | ```ADD2, ROT2, MULL2``` | works the same way but with XY coordinates only
+**complex tool** | ```XFORM``` | combines the above tools in one
+**return position** | ```DEL value``` | returns the cursor with the number of moves specified by value
+**return to initial** | ```DEL TOP``` | returns cursor to its initial position (works if no move is made)
+**pen color** | ```PEN value``` | defines the number of the pen used (from existing pens)
+**material** | ```MATERIAL "name"``` | defines the material used (from existing materials)
