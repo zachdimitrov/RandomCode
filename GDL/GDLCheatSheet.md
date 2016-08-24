@@ -20,3 +20,6 @@ NAME | SYNTAX | OTHER INFO
 **return to initial** | ```DEL TOP``` | returns cursor to its initial position (works if no move is made)
 **pen color** | ```PEN value``` | defines the number of the pen used (from existing pens)
 **material** | ```MATERIAL "name"``` | defines the material used (from existing materials)
+**project 2D** | ```PROJECT2 3,270,2``` | simple 2D script for top view in hidden line
+**hotspot 2D** | ```HOTSPOT2 a, b``` | adds a 2D hotspot to a, b coordinates
+**hotspot** | ```HOTSPOT a, b, c``` | hotspot to a, b, c coordinates in 3D space
