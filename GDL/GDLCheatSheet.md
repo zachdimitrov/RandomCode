@@ -33,11 +33,12 @@ NAME | SYNTAX | OTHER INFO
 
 we can create hole in **prism_** when we add a second prism inside it
 *END CODES*
-- **15** - standart point
-- **-1** - end point (same coords with start point
-- **15-2** (13) - removes vertical lines
-- **1000+15-2** (1013) - makes outer curve and removes vertical lines
-- 
+- **15** - standart point  
+- **-1** - end point (same coords with start point  
+- **15-2** (13) - removes vertical lines  
+- **1000+15-2** (1013) - makes outer curve and removes vertical lines  
+- **900** - start circular hole  
+- **4000** - end circular hole  
 
 ### Simple 2D Syntax Table
 
