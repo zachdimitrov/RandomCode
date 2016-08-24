@@ -21,6 +21,24 @@ NAME | SYNTAX | OTHER INFO
 **material** | ```MATERIAL "name"``` | defines the material used (from existing materials)
 **hotspot** | ```HOTSPOT a, b, c``` | hotspot to a, b, c coordinates in 3D space
 
+### Complex 3D Syntax Table
+
+NAME | SYNTAX | OTHER INFO
+--- | --- | ---
+**prism** | ```PRISM n, h, x1,y1, x2,y2,...etc``` | simple prism (n - number of points, h - height)
+**prism_**| ```PRISM_ n, h, x1,y1,15, x2,y2,15,...etc``` |  15 is a polyline code
+**cprism_**| ```cPrism_ t,b,s,n,h, x1,x2,15...etc``` | t-top, b-base, s-side material
+**bprism_**| ```bPrism_ t,b,s,n,h,r x1,x2,15...etc```| r-radius of bending
+**hprism_/fprism_**| ```hPrism_ t,b,s,n,h,r,A,Hh,Hs x1,x2,15...etc```| A-angle of lsant, Hh - hill height, Hs, hill status
+
+we can create hole in **prism_** when we add a second prism inside it
+*END CODES*
+- **15** - standart point
+- **-1** - end point (same coords with start point
+- **15-2** (13) - removes vertical lines
+- **1000+15-2** (1013) - makes outer curve and removes vertical lines
+- 
+
 ### Simple 2D Syntax Table
 
 NAME | SYNTAX | OTHER INFO
