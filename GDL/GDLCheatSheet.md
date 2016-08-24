@@ -2,7 +2,6 @@
 
 NAME | SYNTAX | OTHER INFO
 --- | --- | ---
-**resolution** | ```RESOL value``` | sets the resolution of curved shapes  
 **block** |      ```BLOCK x, y, z``` |  cherates block with dimentions - x, y, z
 **cylinder** |   ```CYLIND height, radius``` |  to change position before creating objects
 **sphere** |     ```SPHERE radius```  | use ```DEL 1``` to move cursor one steb back
@@ -25,6 +24,7 @@ NAME | SYNTAX | OTHER INFO
 
 NAME | SYNTAX | OTHER INFO
 --- | --- | ---
+**elbow** | ```ELBOW rad1, alpha, rad2``` | creates a curved cylinder
 **prism** | ```PRISM n, h, x1,y1, x2,y2,...etc``` | simple prism (n - number of points, h - height)
 **prism_**| ```PRISM_ n, h, x1,y1,15, x2,y2,15,...etc``` |  15 is a polyline code
 **cprism_**| ```cPrism_ t,b,s,n,h, x1,x2,15...etc``` | t-top, b-base, s-side material
@@ -46,6 +46,14 @@ we can create hole in **prism_** when we add a second prism inside it
 - **1000+15-2** (1013) - makes outer curve and removes vertical lines  
 - **900** - start circular hole  
 - **4000** - end circular hole  
+
+### RESOL, RADIUS, TOLER
+
+NAME | SYNTAX | OTHER INFO
+--- | --- | ---
+**resolution** | ```RESOL value``` | sets the resolution of curved shapes  
+**radius** | ```RADIUS rmin, rmax``` | gives 3 resolution values depending on radius
+**tolerance**| ```TOLER value```| defines the minimum arc height for curve
 
 ### Simple 2D Syntax Table
 
