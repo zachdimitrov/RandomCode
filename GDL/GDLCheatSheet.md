@@ -71,4 +71,24 @@ IF cartyp= 'Rolls-Royce' THEN ct=1
 IF cartyp= 'Bentley' THEN ct=2
 IF cartyp= 'Jaguar' THEN ct=3        !’ct’ is a flag, we use it then in the main script
 ```
+##### defining range of values
+```
+VALUES 'len' RANGE [0.05,1.0] STEP 0.05,0.05
+VALUES 'wid' RANGE [2",3'-4"] STEP 2",2"
+```
 
+### Structured GDL
+```
+GOSUB 100:
+ ! do some work
+GOSUB 200:
+ ! do some work
+END: !end of main logic
+100: 
+  ! function to be called
+200: 
+  ! function to be called
+RETURN
+```
+##### Error messages
+```PRINT "Warning, this is not correct", value```
