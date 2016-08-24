@@ -63,11 +63,11 @@ NAME | SYNTAX | OTHER INFO
 ### Statements
 
 **IF** *condition* **THEN** *do something* **ELSE** *do another thing* **ENDIF**   
-**MODEL** WIRE
-**MODEL** SURFACE
-**MODEL** SOLID
-**SHADOW** ON
-**SHADOW** OFF
+**MODEL** WIRE  
+**MODEL** SURFACE  
+**MODEL** SOLID  
+**SHADOW** ON  
+**SHADOW** OFF  
 
 ##### value lists for user choise
 ```
