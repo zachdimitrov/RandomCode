@@ -36,5 +36,13 @@ NAME | SYNTAX | OTHER INFO
 
 ### Statements
 
-**IF** *rule* **THEN** *do something* **ELSE** *do another thing* **ENDIF** 
+**IF** *condition* **THEN** *do something* **ELSE** *do another thing* **ENDIF**   
+
+##### value lists for user choise
+```
+VALUES 'cartyp' 'Rolls-Royce', 'Bentley', 'Jaguar's
+IF cartyp= 'Rolls-Royce' THEN ct=1
+IF cartyp= 'Bentley' THEN ct=2
+IF cartyp= 'Jaguar' THEN ct=3        !’ct’ is a flag, we use it then in the main script
+```
 
