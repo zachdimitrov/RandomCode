@@ -47,5 +47,27 @@ foreach  ($myArray as $key=>$vaule) {  // pokazva kluchove i stoinosti
   echo $key.' --> '.$value.'<br>';
 }
 ```
+#### Functions
+
+#### Date and Time
+
+#### Work with Files
+
+**get contents of a file into a string**
+```php
+$filename = "/user/local/something.txt";
+$handle = fopen($filename, "r");
+$contents = fread($handle, filesize($filename));
+fclose($handle);
+```
+**another example**
+```php
+$handle = fopen("http://www.abv.bg/", "rb");
+$contents = '';
+while (!feof($handle)) {
+$contents = fread($handle, 8192);
+}
+fclose($handle);
+```
 
 
