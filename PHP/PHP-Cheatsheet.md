@@ -52,7 +52,11 @@ foreach  ($myArray as $key=>$vaule) {  // pokazva kluchove i stoinosti
 #### Date and Time
 
 #### Work with Files
-
+**simple method**
+```php
+$result = file('data.txt');
+echo '<pre>'.print_r($result, true).'</pre>';  //pokazva sydyrjanieto na promenliva
+```
 **get contents of a file into a string**
 ```php
 $filename = "/user/local/something.txt";
