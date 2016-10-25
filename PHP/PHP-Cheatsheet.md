@@ -72,6 +72,17 @@ while (!feof($handle)) {
 $contents = fread($handle, 8192);
 }
 fclose($handle);
+$path = 'text.txt';
+realpath($path);  // pokazva dali syshtestvuva tozi pyr i prehvyrlq pytq v realen
+files = scandir($path);
 ```
-
+**upload files**
+```html
+<form method="post" enctype="multipath/form-data">
+  <input type="file" name="picture" />
+</form>
+<?php
+echo '<pre>'.print_r($_FILES, true).'</pre>';
+?>
+```
 
