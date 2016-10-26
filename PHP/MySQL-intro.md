@@ -48,6 +48,19 @@ if(!$stmt) {
 mysqli_stmt_bind_param($stmt, 'ss', $_GET['name'], $_GET['pass']); //s-string, i-integer
 mysqli_stmt_execute($stmt);
 mysqli_stmt_bind_result($stmt, $user_id, $age);
-mysqli_stmt_fetch($stmt);
-echo $user_id.', '.$age;
+
+while (mysqli_stmt_fetch($stmt)) {
+  echo $user_id.', '.$age;
+}
+```
+### Another way dynamically add
+```php
+$rows = mysqli_stmt_result_metadata($stmt);
+while($field= mysqli_fetch_filed($rows) {
+  $fileds[] = &$row[$filed->name];
+}
+call_user_func_array(array($stmt, 'bind_result'), $fileds);
+while(mysqli_stmt_fetch($stmt)) {
+  echo <pre>.print_r($row, true).</pre>;
+}
 ```
