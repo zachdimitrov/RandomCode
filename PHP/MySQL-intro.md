@@ -41,7 +41,13 @@ echo '</table>';
 ### Prepared statements
 ```PHP
 // do this after charset function
-$stmt = mysqli_prepare($con, 'SELECT * FROM users WHERE username=? AND pass=?');
+$stmt = mysqli_prepare($con, 'SELECT user_id, age FROM users WHERE user_name=? AND pass=?');
+if(!$stmt) {
+  echo 'error';
+}
 mysqli_stmt_bind_param($stmt, 'ss', $_GET['name'], $_GET['pass']); //s-string, i-integer
 mysqli_stmt_execute($stmt);
+mysqli_stmt_bind_result($stmt, $user_id, $age);
+mysqli_stmt_fetch($stmt);
+echo $user_id.', '.$age;
 ```
