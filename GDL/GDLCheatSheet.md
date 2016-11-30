@@ -172,7 +172,7 @@ hsid=hsid+1 !Vector
 HOTSPOT2 -1,0, hsid, A,
 LINE2 0,0,A,0 !The Object
 ```
-**Rotate** Typical 2D Script for rotating an angle ‘angl’ using
+**Rotate:** Typical 2D Script for rotating an angle ‘angl’ using
 a line of length ‘len’
 
 ```
