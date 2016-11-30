@@ -157,3 +157,42 @@ CUTPOLYA number, status, depth,
  x1,y1,15, etc.
  [xv,yv,zv] !Optional Vector
 ```
+
+### GRAPHICAL HOTSPOTS
+
+##### 2D HOTSPOTS
+
+**Syntax:** HOTSPOT2 x,y, hsid, param, flag [,disparam]
+```
+hsid=hsid+1 !Base
+HOTSPOT2 0,0, hsid, A, 1
+hsid=hsid+1 !Move
+HOTSPOT2 A,0, hsid, A, 2
+hsid=hsid+1 !Vector
+HOTSPOT2 -1,0, hsid, A,
+LINE2 0,0,A,0 !The Object
+```
+**Rotate** Typical 2D Script for rotating an angle ‘angl’ using
+a line of length ‘len’
+
+```
+hsid=hsid+1 !Base
+HOTSPOT2 len,0, hsid, angl, 4
+ROT2 angl
+hsid=hsid+1 !Move
+HOTSPOT2 len,0, hsid, angl, 5
+DEL 1
+hsid=hsid+1 !Centre
+HOTSPOT2 0,0, hsid, angl, 6
+```
+##### 3D HOTSPOTS
+
+The same idea as 2D but using 3 coordinates
+
+```
+HOTSPOT 0, 0, 0, hsid, blen,1+128
+hsid=hsid+1!Move
+HOTSPOT blen, 0, 0, hsid, blen,2
+hsid=hsid+1!Vect
+HOTSPOT -1, 0, 0, hsid, blen,3
+```
