@@ -77,6 +77,7 @@ NAME | SYNTAX | OTHER INFO
 **project 2D** | ```PROJECT2 3,270,2``` | simple 2D script for top view in hidden line
 **hotspot 2D** | ```HOTSPOT2 a, b``` | adds a 2D hotspot to a, b coordinates
 **hotarc 2D** | ```HOTARC2 x, y, r, startA, endA``` | same as ARC2
+**pen**|```PEN pen_variable```| defines pen color
 
 ### 3D PLanar Elements Syntax Table
 
