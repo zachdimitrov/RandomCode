@@ -108,21 +108,21 @@ NAME | SYNTAX | OTHER INFO
 **NEXT** k  
  del n  
  
-k = 0 
-**DO**
- ! do something  
-k = k + 1
-**WHILE** k <= 5 
+k = 0  
+**DO**  
+ ! do something   
+k = k + 1  
+**WHILE** k <= 5   
 
-**while** k <= 5 
- ! do something  
-k = k + 1
-**ENDWHILE** 
+**while** k <= 5   
+ ! do something    
+k = k + 1  
+**ENDWHILE**   
 
-**REPEAT**
- ! do something  
-k = k + 1
-**UNTIL** k <= 5 
+**REPEAT**  
+ ! do something    
+k = k + 1  
+**UNTIL** k <= 5     
 
 ##### value lists for user choise
 ```
