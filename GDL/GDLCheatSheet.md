@@ -107,6 +107,22 @@ NAME | SYNTAX | OTHER INFO
  ! do something  
 **NEXT** k  
  del n  
+ 
+k = 0 
+**DO**
+ ! do something  
+k = k + 1
+**WHILE** k <= 5 
+
+**while** k <= 5 
+ ! do something  
+k = k + 1
+**ENDWHILE** 
+
+**REPEAT**
+ ! do something  
+k = k + 1
+**UNTIL** k <= 5 
 
 ##### value lists for user choise
 ```
