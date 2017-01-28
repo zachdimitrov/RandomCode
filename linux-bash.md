@@ -9,14 +9,14 @@
 ```Super + T``` - Trash  
 
 ### Dash  
-```Super - Home    
-```Super + A``` - Apps Lens    
-```Super + F``` - Files Lens   
-```Super + M``` - Music Lens    
-```Super + V``` - Video Lens    
+```Super``` - Home   
+```Super + A``` - Apps Lens  
+```Super + F``` - Files Lens  
+```Super + M``` - Music Lens   
+```Super + V``` - Video Lens   
 ```Super + C``` - Photo Lens    
-```Arrows``` - Moves Focis    
-``` Enter ``` - Opens     
+```Arrows``` - Moves Focus       
+``` Enter ``` - Opens        
 
 ### HUD & Menu Bar  
 ```Alt (single)``` - Opens Hud  
