@@ -2,21 +2,21 @@
 ## Keyboard shortcuts
 
 ### Launcher  
-```Super ``` - opens the launcher  
-```Alt + F1 ``` - Launcher Keyboard mode  
-```Super + Tab ``` - Swiches apps  
+```Super ```        - opens the launcher  
+```Alt + F1 ```     - Launcher Keyboard mode  
+```Super + Tab ```  - Swiches apps  
 ```Super + 1 - 9``` - Launcher icon  
-```Super + T``` - Trash  
+```Super + T```     - Trash  
 
 ### Dash  
-```Super``` - Home   
+```Super```     - Home   
 ```Super + A``` - Apps Lens  
 ```Super + F``` - Files Lens  
 ```Super + M``` - Music Lens   
 ```Super + V``` - Video Lens   
 ```Super + C``` - Photo Lens    
-```Arrows``` - Moves Focus       
-``` Enter ``` - Opens        
+```Arrows```    - Moves Focus       
+``` Enter ```  - Opens        
 
 ### HUD & Menu Bar  
 ```Alt (single)``` - Opens Hud  
