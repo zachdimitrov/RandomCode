@@ -26,7 +26,7 @@
 
 ### Switching  
 ```Alt + Tab1``` - switch between aps  
-```Alt + `1``` - Winows in current ap  
+```Alt + \`1``` - Winows in current ap  
 ```Cursor Left or Right1``` - Moves Focus     
 ```Cursor Up or Down1``` - Spread mode or Select windows   
 ```Alt + Q1``` - Closes app ot window  
@@ -38,7 +38,7 @@
 ```Ctrl + Super + Up1``` - Maximize current window     
 ```Ctrl + Super + Down1``` - Restore or minimize   
 ```Ctrl + Super + Left of Right1``` - Semi Maximize Window     
-```
+
 ## Commands in bash  
 ```bash  
 
