@@ -25,19 +25,19 @@
 ```Alt + Print ``` - screenshot  
 
 ### Switching  
-```Alt + Tab1``` - switch between aps  
-```Alt + \```` - Winows in current ap  
-```Cursor Left or Right``` - Moves Focus     
-```Cursor Up or Down``` - Spread mode or Select windows   
-```Alt + Q``` - Closes app ot window  
+```Alt + Tab1``` - switch between aps    
+```Alt + \```` - Winows in current ap    
+```Cursor Left or Right``` - Moves Focus       
+```Cursor Up or Down``` - Spread mode or Select windows     
+```Alt + Q``` - Closes app ot window    
 
 ### Windows   
-```Super + W - Spreads all     
-```Ctrl + Super + W``` - Spreads in foused app     
-```Ctrl + Super + D``` - Minimize all windows     
-```Ctrl + Super + Up``` - Maximize current window     
-```Ctrl + Super + Down``` - Restore or minimize   
-``` Ctrl + Super + Left of Right ``` - Semi Maximize Window     
+```Super + W - Spreads all       
+```Ctrl + Super + W``` - Spreads in foused app       
+```Ctrl + Super + D``` - Minimize all windows       
+```Ctrl + Super + Up``` - Maximize current window       
+```Ctrl + Super + Down``` - Restore or minimize     
+``` Ctrl + Super + Left of Right ``` - Semi Maximize Window       
 
 ## Commands in bash  
 ```bash  
