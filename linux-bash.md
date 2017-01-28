@@ -32,7 +32,7 @@
 ```Alt + Q``` - Closes app ot window    
 
 ### Windows   
-```Super + W - Spreads all       
+```Super + W``` - Spreads all       
 ```Ctrl + Super + W``` - Spreads in foused app       
 ```Ctrl + Super + D``` - Minimize all windows       
 ```Ctrl + Super + Up``` - Maximize current window       
