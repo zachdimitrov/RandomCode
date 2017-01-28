@@ -41,14 +41,14 @@
 
 ## Commands in bash  
 
-**mkdir [path]** - create directory
-**rm [path]** - delete files
-**rm - rt** - removes recurevly and no ask
-**cp [path1] [parth2]** - copy from 1 to 2
-**sudo** - startirame programa kato superuser
-**gksudo** - syshtoto ot graf interf
-**lsusb** - checks connected devices on usb
-**lspci** - checks on PCI
-**ip-arrd** - shows address
+**mkdir [path]** - create directory  
+**rm [path]** - delete files  
+**rm - rt** - removes recurevly and no ask  
+**cp [path1] [parth2]** - copy from 1 to 2  
+**sudo** - startirame programa kato superuser  
+**gksudo** - syshtoto ot graf interf  
+**lsusb** - checks connected devices on usb  
+**lspci** - checks on PCI  
+**ip-arrd** - shows address  
 
 
