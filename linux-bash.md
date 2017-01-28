@@ -25,11 +25,11 @@
 ```Alt + Print ``` - screenshot  
 
 ### Switching  
-```Alt + Tab1``` - switch between aps    
-```Alt + \```` - Winows in current ap    
-```Cursor Left or Right``` - Moves Focus       
-```Cursor Up or Down``` - Spread mode or Select windows     
-```Alt + Q``` - Closes app ot window    
+```Alt + Tab1``` - switch between aps     
+```Alt + \` ``` - Winows in current a    
+```Cursor Left or Right``` - Moves Focus   
+```Cursor Up or Down``` - Spread mode or Select windows  
+```Alt + Q``` - Closes app ot window   
 
 ### Windows   
 ```Super + W``` - Spreads all       
