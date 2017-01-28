@@ -9,14 +9,14 @@
 ```Super + T1``` - Trash  
 
 ### Dash  
-```Super - Home  
-```Super + A 1``` - Apps Lens  
-```Super + F 1``` - Files Lens  
-```Super + M1``` - Music Lens  
-```Super + V1``` - Video Lens  
-```Super + C1``` - Photo Lens  
-```Arrows1``` - Moves Focis  
-```Enter1``` - Opens  
+```Super - Home    
+```Super + A 1``` - Apps Lens    
+```Super + F 1``` - Files Lens   
+```Super + M1``` - Music Lens    
+```Super + V1``` - Video Lens    
+```Super + C1``` - Photo Lens    
+```Arrows1``` - Moves Focis    
+```Enter1``` - Opens     
 
 ### HUD & Menu Bar  
 ```Alt (single)1``` - Opens Hud  
@@ -32,12 +32,12 @@
 ```Alt + Q1``` - Closes app ot window  
 
 ### Windows   
-```Super + W - Spreads all   
-```Ctrl + Super + W1``` - Spreads in foused app   
-```Ctrl + Super + D1``` - Minimize all windows   
-```Ctrl + Super + Up1``` - Maximize current window   
+```Super + W - Spreads all     
+```Ctrl + Super + W1``` - Spreads in foused app     
+```Ctrl + Super + D1``` - Minimize all windows     
+```Ctrl + Super + Up1``` - Maximize current window     
 ```Ctrl + Super + Down1``` - Restore or minimize   
-```Ctrl + Super + Left of Right1``` - Semi Maximize Window   
+```Ctrl + Super + Left of Right1``` - Semi Maximize Window     
 ```
 ## Commands in bash  
 ```bash  
