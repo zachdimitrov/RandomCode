@@ -16,7 +16,7 @@
 ```Super + V``` - Video Lens    
 ```Super + C``` - Photo Lens    
 ```Arrows``` - Moves Focis    
-```Enter``` - Opens     
+``` Enter ``` - Opens     
 
 ### HUD & Menu Bar  
 ```Alt (single)``` - Opens Hud  
@@ -37,7 +37,7 @@
 ```Ctrl + Super + D``` - Minimize all windows     
 ```Ctrl + Super + Up``` - Maximize current window     
 ```Ctrl + Super + Down``` - Restore or minimize   
-```Ctrl + Super + Left of Right``` - Semi Maximize Window     
+``` Ctrl + Super + Left of Right ``` - Semi Maximize Window     
 
 ## Commands in bash  
 ```bash  
