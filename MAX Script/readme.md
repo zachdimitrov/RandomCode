@@ -28,12 +28,12 @@ sphere radius:rad
 ```
 
 ## Control Flow Statements
-```c
+```MAXScript
 if mybox.height == 10 then mybox.width = 20
 if mybox.height == 10 then mybox.width = 20 else mybox.width = 10
 mybox.width = if mybox.height == 10 then 20 else 10
 ```
-```c
+```MAXScript
 resetMaxFile #noprompt
 mybox = box length:10 width:10 height:10 wirecolor:blue
 for i = 1 to 5 do --repeat five times, for each iteration do:
@@ -43,7 +43,7 @@ box_copy.pos = [i*20, 0, 0]
 box_copy.wirecolor = [i*25,i*50,(5-i)*50]
 )
 ```
-```c
+```MAXScript
 arr = for i = 1 to 5 collect i
 ```
 `do <expr> while <expr>` - do loop  
@@ -53,14 +53,14 @@ arr = for i = 1 to 5 collect i
 `fn substract x y = (x - y)` - define function  
 `substract 4 - 2` - call function with parameters
 #### using keyword arguments (default values)
-```
+```MAXScript
 function mycube side position:[0, 0, 0] =
 (
 box length:side width:side height:side pos:position
 )
 ```
 
-## Structures
+## Custom Structures
 `Struct person (name, height, age, sex)` - define a structure  
 `Bill = person name:"Bill" height:72 age:34 sex:#male` - create instance of structure 
 
@@ -134,7 +134,7 @@ property | return value | description
 
 ## Animation
 #### Functions
-```py
+```MAXScript
 animate on
 (
   at time 0 (mybox.pos = [-100, 0, 0]; mybox.scale = [1, 1, 0.25])
