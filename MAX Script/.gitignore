@@ -1,0 +1,5 @@
+# Ignore all .max, .3ds, .pln, .bpn files
+*.max
+*.3ds
+*.pln
+*.bpn

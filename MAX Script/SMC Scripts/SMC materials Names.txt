@@ -1,0 +1,32 @@
+BrickN 	- Основна тухла
+BrickV	- Вертикални солджъри
+BrickH 	- Хоризонтални 
+BrickA	- Вид1
+BrickB 	- Вид2
+BrickC 	- Вид3
+
+SidingN	- Хоризонтален 
+SidingS - Шейк
+SidingV - Ветикален
+SidingB - Бътън
+
+RoofN	- Шингъл
+RoofM	- Метален
+
+TrimN 	- Основен
+TrimW	- Прозорци
+
+Int
+Curt
+Door
+Handle
+Shutter
+Precast 	
+Stone	
+Glass
+Metal	- гаражни врати, куки на шътърите, лампи
+Concr
+Curb
+SideW
+Grass
+Asph
